@@ -1,0 +1,58 @@
+ main {
+ 	width: 100%;
+
+ }
+
+ #big-image2 {
+ 	max-width: 100%;
+ 	height: auto;
+ 	position: relative;
+ 	margin-bottom: 10px;
+ 	box-shadow: 0px 0px 10px gold,
+ 		0px 0px 10px gold;
+ }
+
+ /*Start about*/
+ .about-details {
+
+ 	display: block;
+ 	position: relative;
+ }
+
+ .about .container {
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+
+ .about-heading {
+ 	text-align: center;
+ 	text-transform: uppercase;
+ 	line-height: 0;
+ 	margin-bottom: 0.5rem;
+ }
+
+ .about-heading h1 {
+ 	font-family: "Lovely home", sans-serif;
+ 	text-transform: none;
+ 	margin-top: 4rem;
+ 	margin-bottom: 10px;
+ 	font-size: 6rem;
+ 	opacity: .2;
+ 	margin-left: -90px;
+ }
+
+ .about-heading h6 {
+ 	margin-top: 40px;
+ 	font-size: 2rem;
+ 	font-weight: 300;
+ }
+
+ .about-details p {
+ 	margin-top: -40px;
+ 	font-family: "avenir", sans-serif;
+ }
+
+ .about-details {
+ 	flex: 1;
+ }
