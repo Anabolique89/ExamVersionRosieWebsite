@@ -137,21 +137,24 @@ footer {
 
 .threecolumns {
 	display: grid;
-	grid-template-columns: 32.5vw 32.5vw 32.5vw;
+	grid-gap: 10px;
+	grid-template-columns: 50vw 50vw;
 }
 
 .threecolumns2 {
 	display: grid;
-	grid-template-columns: 23.5vw 23.5vw 23.5vw 23.5vw;
-	grid-gap: 1vw;
+	grid-gap: 10px;
+	grid-template-columns: 100vw;
+
 }
 
 .tattooimage2 {
-	width: 100%;
-	height: 15vh;
+	width: 260px;
+	height: 150vh;
 	position: relative;
 	overflow: hidden;
 	z-index: -1;
+	padding: 25px;
 }
 
 .tattooimage img {
@@ -162,10 +165,6 @@ footer {
 .contain {
 	width: 81vw;
 	text-align: center;
-}
-
-.tattootiles {
-	width: 100%;
 }
 
 .tattootiles p {
@@ -305,52 +304,56 @@ footer {
 .subpagenameandprice {
 	width: 17vh;
 	position: absolute;
-	left: 1vw;
-	top: 5vh;
+	left: -5vh;
+	top: 0.5vh;
 	max-width: 100%;
 	text-align: left;
 	font-size: 1.5vw;
-	font-family: roboto;
 	padding: 1vw;
 }
 
 .subpagenameandprice img {
-	max-width: 100%;
+	max-width: 200%;
 	height: auto;
 }
 
 .subpagegallery {
-	width: 40vh;
+	width: 50vh;
 	position: absolute;
-	right: 1vw;
-	top: 1vh;
+	right: 5vw;
+	top: 30vh;
 	max-width: 100%;
 	height: 100%;
-	text-align: right;
-	font-size: 2.5vw;
-	font-family: roboto;
+	font-size: 3vw;
+	font-family: 'Avenir';
 	padding: 1vw;
+	text-align: left;
 }
 
 .subpagegallery h4 {
-	font-family: Robotobold;
-	padding: 0;
-	font-size: 3vw;
+	font-family: 'Century';
+	font-size: 4vw;
 	margin: 0;
 	text-transform: none;
 	text-align: right;
 	color: black;
 }
 
+p6.tattoodescription {
+	font-size: 16px;
+}
+
 .goback {
-	font-family: Roboto Thin;
+	top: -2vh;
+	font-family: 'Century';
 	padding-top: 0;
-	padding: 5vw;
-	font-size: 2vw;
+	padding: 4vw;
+	font-size: 2.5vw;
 	margin: 0;
 	text-transform: none;
 	position: absolute;
 	left: 1vw;
+	z-index: 1;
 }
 
 footer img {
@@ -382,4 +385,25 @@ ul a:hover {
 	grid-gap: 0.5rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
+}
+
+.buytattoobox {
+	width: 30vh;
+	position: absolute;
+	left: 8vw;
+	top: 37vh;
+	text-align: left;
+	padding: 2vw;
+}
+
+.about-details2 p {
+	MARGIN: 0;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-TOP: 40px;
+	padding-BOTTOM: 40px;
+	font-size: 3.5vw;
+	font-family: 'Avenir';
+	text-align: left;
+	text-decoration: none;
 }
